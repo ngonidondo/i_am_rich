@@ -22,8 +22,11 @@ void main() {
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Image(
+              /*
               image: NetworkImage(
                   'https://nypdecider.files.wordpress.com/2019/09/the-boondocks.jpg?quality=90&strip=all&w=646&h=431&crop=1'),
+            */
+              image: AssetImage('images/huey.jpg'),
             ),
           ),
         ),
